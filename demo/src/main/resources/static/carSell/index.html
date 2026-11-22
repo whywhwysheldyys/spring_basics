@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Автосалон на Spring Boot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🚗 Управление автосалоном</h1>
+
+    <form id="carForm">
+        <h3>Добавить новую машину</h3>
+        <input type="text" id="brand" placeholder="Марка (например, BMW)" required>
+        <input type="text" id="model" placeholder="Модель (например, X5)" required>
+        <input type="number" id="price" placeholder="Цена" step="any" required>
+        <button type="submit">Сохранить машину</button>
+    </form>
+
+    <h2>Список машин в базе</h2>
+    <div id="carList">Загрузка...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
